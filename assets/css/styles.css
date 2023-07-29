@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#header{
+    width: 100%;
+    background: rgb(46, 11, 81);
+    font-family: sans-serif;
+}
+.container{
+    padding:  10px 10% ;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+#site-main.container form{
+    margin: 2rem 0;
+
+}
+h1{
+    margin-bottom: 50px;
+}
+table{
+    border-spacing: 0px;
+    width: 100%;
+}
+
+.table td, .table th{
+ 
+    vertical-align: top;
+    text-align: center;
+    border: 1px solid aqua;
+    width: 70%;
+    background-color: aqua;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.table #view{
+    margin-right: 40px;
+}
+
+thead
+{
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 1024px){
+    table, tbody,  td, tr{
+        display: block;
+    }
+    .table #view{
+        padding:0 160px;
+    }
+    
+}
+
+
+
+.btn.btn2{
+    margin-top: 35px;
+    margin-left: 15px;
+}
+
+
+
+form input,form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background-color:rosybrown;
+    padding:15px;
+    margin:15px 0;
+    color: #edf2fc;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form input:hover,form textarea:hover{
+    box-shadow: 6px 6px 40px 10px aqua;
+}
+form .btn2{
+    cursor: pointer;
+    transition: 0.5s;
+}
+form .btn2:hover{
+    transform: translateY(-5px);
+    box-shadow: 6px 6px 40px 10px aqua;
+}
+.btn{
+    display: block;
+    margin:50px auto;
+    width: fit-content;
+    border: 1px solid rgb(46, 11, 81);
+    background-color: rgb(46, 11, 81);
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: background 0.5s;
+}
+.table td> .btn3{
+    display: block;
+    margin:.5rem ;
+    width: fit-content;
+    border: 1px solid rgb(46, 11, 81);
+    background-color: rgb(46, 11, 81);
+    padding:  10px 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    
+    
+}
+

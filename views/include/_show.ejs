@@ -1,0 +1,12 @@
+<%for(var i=0;i<users.length;i++){%>
+
+<tr>
+    <td><%= users[i].Quotes %></td>
+    
+    <td rowspan="2" id="view"><a href="/view-quotes" class="btn3">View Quotes</a>
+    </td>
+</tr>
+<tr>
+    <td style="color: red;"><%= users[i].Name %></td>
+</tr>
+<%}%>
